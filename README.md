@@ -94,7 +94,8 @@
 </html>
 ```
 <h2 align = "center">Файл style.css</h2>
-```html
+
+```css
 body {
     width: 100%;
     height: 100%;
