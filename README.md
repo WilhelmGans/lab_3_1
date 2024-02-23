@@ -124,7 +124,8 @@ body {
 ```
 
 <h2 align = "center">Файл cards-about.css</h2>
-```html
+
+```css
 body {
     width: 100%;
     height: 100%;
@@ -153,7 +154,8 @@ body {
 ```
 
 <h2 align = "center">Файл navbar.css</h2>
-```html
+
+```css
 .navbar {
     top: 93%;
     display: flex;
