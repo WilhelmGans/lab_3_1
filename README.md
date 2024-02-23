@@ -126,30 +126,100 @@ body {
 <h2 align = "center">Файл cards-about.css</h2>
 
 ```css
-body {
-    width: 100%;
+.cards-about {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.cards-about__card-about {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100vh;
+}
+
+.cards-about__card-about_left {
+    background-color: #f5f4f8;
+}
+.cards-about__card-about_right {
+    background-color: #fff;
+}
+
+.card-about__container {
+    display: flex;
+    flex-direction: column;
     height: 100%;
-    margin: 0;
-    font-family: "Montserrat Alternates", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-    color: #666276ff;
+    padding: 0 10px 0 10px;
 }
 
-.text-content {
-    font-size: 1.3em;
-    color: #666276ff;
-    font-weight: 500;
+.card-about__container_center {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
-.text-orange {
-    color:orangered;
+.cards-about__text-welcome {
+    padding: 0 10px 0 10px;
+    position: absolute;
 }
-.text-dark {
-    color: #4b475c;
+
+.card-about__image {
+    width: 300px;
+    height: 300px;
 }
-.text-400 {
-    font-weight: 400;
+
+.card-about__image_profile {
+    border-radius: 10%;
+    box-shadow: 0 4px 40px 20px #cecece;
+}
+
+@media screen and (max-width:  850px) {
+    .cards-about {
+        flex-direction: column;
+    }
+
+    .cards-about__card-about {
+        width: 100%;
+        height: 30vh;
+    }
+
+    .cards-about__text-welcome {
+        text-align: center;
+        position: unset;
+    }
+
+    .card-about__image {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width:  460px) {
+    .cards-about {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .cards-about__card-about_left {
+        width: 100%;
+        height: 500px;
+    }
+
+    .cards-about__card-about_right {
+        width: 100%;
+        height: auto;
+    }
+
+    .cards-about__text-welcome {
+        text-align: center;
+        position: unset;
+    }
+
+    .card-about__image {
+        width: 100px;
+        height: 100px;
+    }
 }
 ```
 
