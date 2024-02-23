@@ -94,7 +94,7 @@
 </html>
 ```
 <h2 align = "center">Файл style.css</h2>
-```css
+```
 body {
     width: 100%;
     height: 100%;
@@ -123,7 +123,7 @@ body {
 ```
 
 <h2 align = "center">Файл cards-about.css</h2>
-```css
+```
 body {
     width: 100%;
     height: 100%;
@@ -152,7 +152,7 @@ body {
 ```
 
 <h2 align = "center">Файл navbar.css</h2>
-```css
+```
 .navbar {
     top: 93%;
     display: flex;
