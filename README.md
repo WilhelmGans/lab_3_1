@@ -93,6 +93,7 @@
 </body>
 </html>
 ```
+
 <h2 align = "center">Файл style.css</h2>
 
 ```css
@@ -113,11 +114,13 @@ body {
 }
 
 .text-orange {
-    color:orangered;
+    color: orangered;
 }
+
 .text-dark {
     color: #4b475c;
 }
+
 .text-400 {
     font-weight: 400;
 }
@@ -142,6 +145,7 @@ body {
 .cards-about__card-about_left {
     background-color: #f5f4f8;
 }
+
 .cards-about__card-about_right {
     background-color: #fff;
 }
@@ -174,7 +178,7 @@ body {
     box-shadow: 0 4px 40px 20px #cecece;
 }
 
-@media screen and (max-width:  850px) {
+@media screen and (max-width: 850px) {
     .cards-about {
         flex-direction: column;
     }
@@ -195,7 +199,7 @@ body {
     }
 }
 
-@media screen and (max-width:  460px) {
+@media screen and (max-width: 460px) {
     .cards-about {
         flex-direction: column;
         height: auto;
@@ -234,13 +238,16 @@ body {
     position: absolute;
     justify-content: center;
 }
+
 .navbar_center {
     justify-content: center;
 }
+
 .navbar__container {
     align-items: center;
     padding: 5px;
 }
+
 .navbar__container {
     background: rgba(255, 255, 255, 0.2);
     border-radius: 16px;
@@ -249,6 +256,7 @@ body {
     -webkit-backdrop-filter: blur(9.4px);
     border: 1px solid rgba(255, 255, 255, 0.3);
 }
+
 .navbar__list {
     margin: 0;
     padding: 0;
@@ -273,11 +281,13 @@ body {
 
     position: relative;
 }
+
 .navbar__item {
     display: inline-block;
     vertical-align: middle;
     line-height: normal
 }
+
 .navbar__item a {
     position: absolute;
     top: 0;
@@ -285,31 +295,37 @@ body {
     width: 100%;
     height: 100%;
 }
+
 .navbar__item-container {
     border-radius: 10px;
     transition: background-color 0.6s ease-out 100ms;
 }
+
 .navbar__item-container:hover {
     background-color: rgba(255, 69, 0, 0.07);
 }
 
-@media screen and (max-width:  460px) {
+@media screen and (max-width: 460px) {
     .navbar {
         top: unset;
         width: 100%;
         position: relative;
     }
+
     .navbar__list {
         border: none;
         border-radius: unset;
     }
+
     .navbar_bottom {
         background-color: orangered;
         width: 100%;
     }
+
     .navbar__item {
         color: white;
     }
+
     .navbar__container {
         background: transparent;
         border-radius: unset;
@@ -319,8 +335,6 @@ body {
     }
 }
 ```
-
-
 
 <h1 align = "center">Результат</h1>
 

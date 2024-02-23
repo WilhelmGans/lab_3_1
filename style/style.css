@@ -15,11 +15,13 @@ body {
 }
 
 .text-orange {
-    color:orangered;
+    color: orangered;
 }
+
 .text-dark {
     color: #4b475c;
 }
+
 .text-400 {
     font-weight: 400;
 }

@@ -14,6 +14,7 @@
 .cards-about__card-about_left {
     background-color: #f5f4f8;
 }
+
 .cards-about__card-about_right {
     background-color: #fff;
 }
@@ -46,7 +47,7 @@
     box-shadow: 0 4px 40px 20px #cecece;
 }
 
-@media screen and (max-width:  850px) {
+@media screen and (max-width: 850px) {
     .cards-about {
         flex-direction: column;
     }
@@ -67,7 +68,7 @@
     }
 }
 
-@media screen and (max-width:  460px) {
+@media screen and (max-width: 460px) {
     .cards-about {
         flex-direction: column;
         height: auto;
