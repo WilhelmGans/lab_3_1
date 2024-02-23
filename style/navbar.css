@@ -77,7 +77,6 @@
     .navbar {
         top: unset;
         width: 100%;
-        position: relative;
     }
 
     .navbar__list {
@@ -86,8 +85,11 @@
     }
 
     .navbar_bottom {
+        margin-top: 50px;
         background-color: orangered;
         width: 100%;
+        position: fixed;
+        bottom: 0;
     }
 
     .navbar__item {

@@ -72,6 +72,7 @@
     .cards-about {
         flex-direction: column;
         height: auto;
+        padding-bottom: 50px;
     }
 
     .cards-about__card-about_left {
