@@ -67,7 +67,10 @@
             <p class="text-content">
                 Мне нравится вселенная Star Wars.
             </p>
-            <p class="text-content">Сейчас я разработчик в компании Sakh.com</p>
+            <p class="text-content">
+                Сейчас я студент Сахалнского государственного университета на направлении прикладная математика и информатика.
+            </p>
+            <p class="text-content">Также работаю на должности разработчика в компании Sakh.com</p>
         </div>
     </div>
 </div>
@@ -76,16 +79,15 @@
         <ul class="navbar__list">
             <li class="navbar__item-container text-content">
                 <div class="navbar__item">
-                    <i class="fa-solid fa-user"></i> Автор
-                    <a href="#/author.html"></a>
+                    <i class="fa-brands fa-github"></i> github
+                    <a href="https://github.com/wilhelmgans"></a>
                 </div>
             </li>
             <li class="navbar__item-container text-content">
                 <div class="navbar__item">
-                    <i class="fa-solid fa-phone"></i> Контакты
-                    <a href="#/contacts.html"></a>
+                    <i class="fa-solid fa-phone"></i> vk
+                    <a href="https://vk.com/wilhelm_gans"></a>
                 </div>
-
             </li>
         </ul>
     </div>
@@ -235,7 +237,7 @@ body {
     display: flex;
     flex-direction: row;
     width: 100%;
-    position: absolute;
+    position: fixed;
     justify-content: center;
 }
 
@@ -265,20 +267,19 @@ body {
     border-radius: 10px;
 }
 
-.navbar__list .navbar__item-container {
+.navbar__item-container {
     height: 50px;
     line-height: 50px;
     display: inline-block;
-    margin: 5px;
     padding: 0 5px 0 5px;
     vertical-align: middle;
     text-align: center;
 }
 
-.navbar_center .navbar__item-container {
+.navbar__item-container {
     display: inline-block;
     font-size: 15px;
-
+    padding: 5px;
     position: relative;
 }
 
@@ -297,19 +298,19 @@ body {
 }
 
 .navbar__item-container {
-    border-radius: 10px;
-    transition: background-color 0.6s ease-out 100ms;
+    border-radius: 8px;
+    transition: background-color 0.6s, color 0.6s ease-out 100ms;
 }
 
 .navbar__item-container:hover {
-    background-color: rgba(255, 69, 0, 0.07);
+    background-color: rgb(255, 69, 0);
+    color: white;
 }
 
 @media screen and (max-width: 460px) {
     .navbar {
         top: unset;
         width: 100%;
-        position: relative;
     }
 
     .navbar__list {
@@ -318,8 +319,10 @@ body {
     }
 
     .navbar_bottom {
+        margin-top: 50px;
         background-color: orangered;
         width: 100%;
+        bottom: 0;
     }
 
     .navbar__item {
@@ -338,7 +341,7 @@ body {
 
 <h1 align = "center">Результат</h1>
 
-<p align = "center"><img src="report/imgfirst.png" alt="first screen"><img src="report/img2.png" alt="second screen"> <img src="report/img3.png" alt="
+<p align = "center"><img src="report/img_1.png" alt="first screen"><img src="report/img_2.png" alt="second screen"> <img src="report/img_3.png" alt="
 third screen"></p>
 
 <h1 align = "center">Вывод</h1>
